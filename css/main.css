@@ -17,7 +17,7 @@ header {
 	top: 0px;
 }
 
-#search {
+#search-nodata {
 	width: 90%;
 	height: 3em;
 	font-size: 16px;
@@ -43,13 +43,17 @@ img {
 }
 
 
+.lb-image {
+	margin: 0;
+}
+
 
 
 /*Tablet Styles*/
 
 @media screen and (min-width: 520px) {
 
-#search {
+#search-nodata {
 	width: 460px;
 }
 
@@ -74,3 +78,21 @@ main {
 img {
 	margin: 30px 0;
 }}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
