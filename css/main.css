@@ -17,7 +17,7 @@ header {
 	top: 0px;
 }
 
-#search-nodata {
+#search {
 	width: 90%;
 	height: 3em;
 	font-size: 16px;
@@ -47,13 +47,34 @@ img {
 	margin: 0;
 }
 
+#overlay {
+  background: rgba(0,0,0,.7);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  text-align: center;
+}
 
+#overlay img {
+  margin-top: 20%;
+  width: 60%;
+  
+}
+
+#overlay p {
+  color: white;
+  width: 55%;
+  margin: auto;
+}
 
 /*Tablet Styles*/
 
 @media screen and (min-width: 520px) {
 
-#search-nodata {
+#search {
 	width: 460px;
 }
 
